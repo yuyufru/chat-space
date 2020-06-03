@@ -40,6 +40,3 @@ belongs_to :user
 ### Association
 belongs_to :group
 belongs_to :user
-
-
-test test test
