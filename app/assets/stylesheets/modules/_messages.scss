@@ -83,22 +83,24 @@
       }
       
       .RightHeader__editButton{
+        display: block;
+        border: 1px solid #38aef0;
         height: 40px;
         color: #38aef0;
         box-sizing: border-box;
         justify-content: space-between;
         line-height: 40px;
-        margin-top: 20px;
-        padding: 20px 40px 40px;
+        margin-top: 28px;
+        padding: 0 20px;
         font-size: 16px
-      
+        // text-decoration: none;
        }    
     }
     .MessageField{
       height: calc(100vh - 100px - 90px);
       width: calc(100vw - 300px);
       background-color: #fafafa;
-      padding:35 40  0px;
+      padding:35px 40px 0px;
       box-sizing: border-box;
     }    
     .MessageBox{
@@ -110,11 +112,12 @@
     .MessageInfo__userName{
       color: #434a54;
       font-size: 16px;
+      font-weight: bold;
     }
     .MessageInfo__date{
       color: #999999;
       font-size: 12px;
-      padding:35 40  0px;
+      padding-left:10px;
       font-weight: bold;
     }       
     .Message
@@ -172,7 +175,8 @@
         align-items: center;
         }      
         .icon{
-                color: #d8d8d8;
+          color: #d8d8d8;
+          padding-right: 10px;
               }    
       } 
     }  
