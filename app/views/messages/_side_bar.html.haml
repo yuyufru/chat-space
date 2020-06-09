@@ -1,0 +1,20 @@
+.SideBar
+  .LeftHeader
+    .LeftHeader__Box
+      .LeftHeader__userName
+        masa
+      %ul.LeftHeader__iconList
+        %li.LeftHeader__Icon
+          = link_to '#' do
+            = icon('fas', 'edit', class: 'icon')
+        %li.LeftHeader__Icon
+          = link_to '#' do
+            = icon('fas', 'cog', class: 'icon')
+
+  .GroupList
+    .Group
+      =link_to '#' do
+        .Group__name
+          member
+        .Group__message
+          メッセージ
