@@ -24,13 +24,8 @@
   .Footer
     %form.Form
       .Form__contents
-        %input.Form__inputContent{type: 'text' ,placeholder:"type a message"}
-        %label.Form__inputImage
+        %input.Form__contents__inputContent{type: 'text' ,placeholder:"type a message"}
+        %label.Form__contents__inputImage
           =icon('far', 'image', class: 'Form__icon')
           %input.Hidden{type: 'file'}
       %input.Form__Submit{type: 'submit', value: 'send'}
-  
-
-
-
-    
